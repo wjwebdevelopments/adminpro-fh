@@ -3,9 +3,15 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 
+// Componentes
+import { NavigationComponent } from './shared/navigation/navigation.component';
+import { SidebarComponent } from './shared/sidebar/sidebar.component';
+
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    NavigationComponent,
+    SidebarComponent
   ],
   imports: [
     BrowserModule
